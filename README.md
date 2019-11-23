@@ -2,7 +2,7 @@
 The purpose of the project is to design a database management system on MS SQL with given schemas, constraints and triggers
 
 # Process
-## Step 1: The Language of Choice
+### Step 1: The Language of Choice
 For this project, I needed to pick two languages: Java and SQL.
 
 Java is a powerful object-oriented language for designing database systems with a user interface. It has a widget toolkit, Java Swing, provide graphic user interface (GUI) design and JDBC, a Java API, to manage connection to a database, issuing queries and commands, and handling result sets obtained from the database.
@@ -11,20 +11,20 @@ On the other hand, SQL is used to communicate with a database and is the standar
 
 Microsoft SQL Server supports full functionalities to build a database management system from a scratch and that it can be integrated with Java. It was the choice to go.
 
-## Step 2: The Understanding of Relational Database
+### Step 2: The Understanding of Relational Database
 To keep things simple, a relational database is a type of database that stores and provides access to data points that are related to one another. It is based on the relational model, an intuitive, straightforward way of representing data in tables.
 
 In a relational database, each row in the table is a record with a unique ID called the key. The columns of the table hold attributes of the data, and each record usually has a value for each attribute, making it easy to establish the relationships among data points.
 
 With this in mind, I proceeded to the next step of my project - the implementation.
 
-## Step 3: The Implementation & Testing
+### Step 3: The Implementation & Testing
 
 Coding was fairly straight-forward. With Java Swing, I added functionalities or buttons to search flights, enter customer booking information, view flights on any given date and others. 
 
 With a custom user interface, I tested several cases where a user connects to the database system via JDBC and queries flights or modifies (edit/add/delete) his/her flight reservation(s).
 
-## Step 4: Final Result & Reflection
+### Step 4: Final Result & Reflection
 
 As a result, I successfully developed a fully working airline database system and learned a lot about SQL and Java, and learned about query optimizations - how different data retrieval methods or queries can improve the overall processing time.
 
