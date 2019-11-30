@@ -1,6 +1,11 @@
 # Purpose
 The purpose of the project is to design a database management system on MS SQL with given schemas, constraints and triggers
 
+# Technologies
+  - MS SQL
+  - JDBC (Java API)
+  - Java Swing (GUI)
+
 # Process
 ### Step 1: The Language of Choice
 For this project, I needed to pick two languages: Java and SQL. Java is a powerful object-oriented language for designing database systems with a user interface. It has a widget toolkit, Java Swing, provide graphic user interface (GUI) design and JDBC, a Java API, to manage connection to a database, issuing queries and commands, and handling result sets obtained from the database. On the other hand, SQL is used to communicate with a database and is the standard language for relational database management systems. SQL statements are used to perform tasks such as update data on a database, or retrieve data from a database. Microsoft SQL Server supports full functionalities to build a database management system from a scratch and that it can be integrated with Java. It was the choice to go.
